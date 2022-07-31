@@ -1,0 +1,14 @@
+.header{
+    background-color: #00a884;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+}
+.header>.content {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px;
+}
