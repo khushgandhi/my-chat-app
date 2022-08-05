@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Register.css";
+import React from 'react';
 
 
 export default function Register(props){
@@ -12,7 +13,7 @@ export default function Register(props){
         }}></input>
         <button className="register-button"
         onClick={()=>{
-            alert("Start chatting clicked for "+text);// to be replaced by register api
+            alert("Start chatting clicked for "+text);// to be replaced by register api + navigate to chatroom
         }}>
             Start Chatting
         </button>
